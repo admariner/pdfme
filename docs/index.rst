@@ -87,7 +87,6 @@ strategies:
 Shortcomings
 ------------
 
-* Currently this library only supports the standard 14 PDF fonts. 
 * Currently this library only supports ``jpg`` and ``png`` image formats (png
   images are converted to jpg images using Pillow, so you have to install it to
   be able to embed png images).
