@@ -87,6 +87,9 @@ strategies:
 Shortcomings
 ------------
 
+* The use of ttf fonts does not subset font files, therefore, generated documents
+  do not benefit from smaller file sizes gained from subsetting.
+
 * Currently this library only supports ``jpg`` and ``png`` image formats (png
   images are converted to jpg images using Pillow, so you have to install it to
   be able to embed png images).
