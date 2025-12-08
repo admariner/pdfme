@@ -97,7 +97,7 @@ class PDFFont(abc.ABC):
     @staticmethod
     def register(font_family: str, mode: str, path: str):
         '''
-        This is useful for registering user defined custom fonts. The registered 
+        Method for registering user defined custom fonts. The registered 
         font would be loaded when required in the document.
 
         Args:
